@@ -1,0 +1,119 @@
+/* Ajout des police */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap');
+
+/* Ajout de la police global de la page */
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Desactive la margine de la marge et ajoute un padding a gauche de 10% */
+
+body {
+    margin: 0;
+    padding: 0 0 0 10%;
+}
+
+/* Display Flex des contenu de la navbar pour la mettre en haut au milleur et en verticale */
+
+.navbar__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 265%;
+}
+
+/* Ajoute un espacement au items de la navbar */
+
+.navbar__item {
+    padding-left: 5%;
+}
+
+/* Desactive le text decoration remplacement de la couleur en noir et augmentation de taille de la police d'écriture et ajoute un épaisisement à la police */
+
+.navbar__item a{
+    text-decoration: none;
+    color: black;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+/* Ajoute d'une police spécial au titre et augmentation de taille de la police */
+
+.title {
+    font-family: 'Open Sans', sans-serif;    
+    font-size: 45px;
+}
+
+/* Ajoute une largeur pour que le texte soit entièrment lisible */
+
+.title h1 {
+    width: 220%;
+}
+
+/* Ajoute de l'underline en dessous du titre */
+
+.underline {
+    background-color: #454545;
+    margin-bottom: 10%;
+    height: 2vh ;
+    width: 70%;
+}
+
+.card--right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card--left {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card__item {
+    display: flex;
+    margin-top: 10%;
+}
+
+.card__img {
+    height: 500px;
+    width: 500px;
+}
+
+.content_text {
+    margin-left: 10%;
+}
+
+.card__title {
+    font-size: 45px;
+}
+
+.card__text {
+    font-size: 25px;
+    width: 180%;
+}
+
+.card__price {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card__addCart {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #E6A247;
+    color: white;
+    border: none;
+    border: #E6A247 solid 3px;
+    height: 8vh;
+    width: 80%;
+}
+
+.card__addCart:hover {
+    transition: .2s;
+    border: green solid 3px;
+    border-radius: 10px;
+    background-color: green;
+}
